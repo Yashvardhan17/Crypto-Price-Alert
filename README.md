@@ -1,5 +1,10 @@
 # Crypto-Price-Alert
 
+USED 
+- PostresQL
+- Python
+- RESTAPI - Flask
+
 install the packages
 
 
