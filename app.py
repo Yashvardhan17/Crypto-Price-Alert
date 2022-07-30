@@ -254,7 +254,7 @@ def update_product(current_user):
     return Alert_schema.jsonify(product)
 
 
-@app.route('/alerts/delete/<id>', methods=['DELETE'])
+@app.route('/alerts/delete/<public_id>', methods=['DELETE'])
 @req_token
 def delete_product(current_user):
     product = Alert.query.get(current_user.public_id)
