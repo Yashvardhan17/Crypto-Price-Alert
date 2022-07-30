@@ -3,12 +3,12 @@
 install the packages
 
 
-- Flask
-- URL Lib
-- Flask - SQLAlchemy
-- JWT
-- Flask - Marshmallow
-- 
+- Flask  = for restAPI
+- URL Lib  = for URLs
+- Flask - SQLAlchemy =for DATABASE 
+- JWT  = for authentication
+- Flask - Marshmallow = Schema
+- smtpd = for EMAIL
 
 Made together with Chaitanya Sapre 19BAI10131
 
@@ -43,4 +43,13 @@ POST - http://127.0.0.1:5000/alerts/create - creating alerts
 
 GET - http://127.0.0.1:5000/alerts/getalert - fetching all the alerts, It will be used to fetch the data from database to chect the value of price to send mail alert
 
-GET - http://127.0.0.1:5000/alerts/<public_id> - get a particuler alert it will 
+GET - http://127.0.0.1:5000/alerts/<public_id> - get a particuler alert 
+
+
+
+trigger function will run every 60 seconds it will call the which will send the email
+
+
+
+
+
