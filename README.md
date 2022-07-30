@@ -50,6 +50,15 @@ GET - http://127.0.0.1:5000/alerts/<public_id> - get a particuler alert
 trigger function will run every 60 seconds it will call the which will send the email
 
 
+DISCRIPTION flow of code
 
+
+
+The file app.py will run the application will help to get the requests whenerver the flask app server is running 
+After that run the main.py to get the email alerts
+App is basic when the server is running it will fetch the value from the database
+before run the flask APP
+
+main.py code is also written in the app to run in a single file
 
 
