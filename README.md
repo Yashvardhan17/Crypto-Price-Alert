@@ -14,6 +14,7 @@ install the packages
 - JWT  = for authentication
 - Flask - Marshmallow = Schema
 - smtpd = for EMAIL
+- PyJWT = for encode and decode
 
 Made together with Chaitanya Sapre 19BAI10131
 
