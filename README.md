@@ -16,7 +16,7 @@ install the packages
 - smtpd = for EMAIL
 - PyJWT = for encode and decode
 
-Made together with Chaitanya Sapre 19BAI10131
+
 
 
 create a table in Postsql give the table name and pass in the app.py file
