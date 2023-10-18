@@ -1,5 +1,5 @@
 # Crypto-Price-Alert
-
+It will send email when it reaches a certain price which is set on alert
 USED 
 - PostresQL
 - Python
